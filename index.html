@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width , initial-scale=1">
+	<title>My Calculator</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class = "bgm">
+
+	<div class = "container myform">
+
+			<form class = "form-group">
+				<div class ="typewriter" >
+				<h3>Welcome to Lade</h3>
+				<p>Lets help you find out what is wrong </p>
+				</div>
+			
+				<div>
+						<input type="text" name="" placeholder="Please Enter your name" id="firstName" class = "form-control">
+						<br>
+				</div>
+
+					<div class = "age">
+							How Old are you <br>
+							<input type="Date" name="" class = "form-control">
+							<br>
+					</div>
+
+					<div class = "gender">
+							Gender:
+							<br>
+							<div class="radio">
+									<label><input type="radio" name="optradio">Male</label>
+							</div>
+							<div class="radio">
+									<label><input type="radio" name="optradio">Female</label>
+							</div>
+							
+					</div>
+					
+					<div class = "state">
+							Current Health State <br>
+							<select name="current atate" class = "form-control">
+							<option value="Undergraduate">Very Healthy</option>
+							<option value="Graduate">Healthy</option>
+							<option value="Nysc coper">Slighty sick</option>
+							<option value="Working">Sick</option>
+						  </select>
+					</div>
+					
+					<div class = "medicaldate">
+							<div><br>
+								When last did you have a medical check up 
+								<input type="Date" name="" class = "form-control">
+		
+							</div>
+					</div>
+					
+					<div class = "dobook">
+							<br>
+							<div>
+									Do you want to book a medical check up with lade
+									<div class="radio">
+											<label><input type="radio" name="optradio">Yes</label>
+									</div>
+									<div class="radio">
+											<label><input type="radio" name="optradio">No</label>
+									</div>
+			
+								</div>
+					</div>
+					
+					<div>
+							<div class = "book">
+									Book Appointment
+									<input type="Date" name="" class = "form-control">
+									<br>
+			
+							</div>
+					</div>
+
+						<br>
+						
+							<div class = "symtoms">
+									What kind of symtoms do you have <br>
+									<select  class = " form-control"  >
+										<option value="Undergraduate">Headache</option>
+										<option value="Graduate">Fatigue</option>
+										<option value="Nysc coper">Muscle pain</option>
+										<option value="Working">Sweating</option>
+										<option value="Working">Dry cough</option>
+										<option value="Working">Vomiting</option>
+										<option value="Working">Enlargement</option>
+										<option value="Working">Backpains</option>
+										<option value="Working">Others</option>
+								  </select>
+						  
+							</div>
+
+
+
+							<div class = "serious">
+									<div>
+										<br>
+											How serious is it 
+											<select name="current state" class = "form-control">
+													<option value="Undergraduate">1</option>
+													<option value="Graduate">2</option>
+													<option value="Nysc coper">3</option>
+													<option value="Working">4</option>
+													<option value="Working">5</option>
+											</select>
+											<br>
+					
+									</div>
+							</div>
+
+							<div class= "">
+									<div>
+										<br>
+											 
+											<select name="current state" class = "form-control">
+													<option value="Undergraduate">1</option>
+													<option value="Graduate">2</option>
+													<option value="Nysc coper">3</option>
+													<option value="Working">4</option>
+													<option value="Working">5</option>
+											</select>
+											<br>
+					
+									</div>
+							</div>
+
+				</form>
+	</div>
+	
+
+
+
+
+	<script type="text/javascript">
+		var fullName = firstName ;
+		document.getElementById("firstName").innerHTML = fullName;
+		console.log("Welcome" + fullName + "lets get started");
+	
+	</script>
+</body>
+</html>
