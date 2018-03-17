@@ -36,6 +36,30 @@
     50% { border-color: orange }
   }
 
-.age .gender .state .medicaldate .dobook .book .symtoms .serious{
+#age {
+    display: none;
+}
+.gender {
+    display: none;
+}
+.state {
+    display: none;
+}
+.medicaldate {
+    display: none;
+} 
+.dobook {
+    display: none;
+}
+.book {
+    display: none;
+}
+ .symtoms {
+    display: none;
+}
+.serious{
+    display: none;
+}
+ .ser {
     display: none;
 }
